@@ -1,0 +1,18 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./i18n.ts" },
+    { "path": "./parser.ts" },
+    { "path": "./algebra.ts" },
+    { "path": "./layout.ts" },
+    { "path": "./diagram.ts" },
+    { "path": "./media.ts" },
+    { "path": "./firebase.ts" },
+    { "path": "./lesson.ts" },
+    { "path": "./plot.ts" },
+    { "path": "./plane.ts" },
+    { "path": "./game.ts" },
+    { "path": "./movie.ts" },
+    { "path": "./webgpu.ts" }
+  ]
+}

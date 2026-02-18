@@ -2,7 +2,7 @@
   "name": "uroa-stem",
   "private": true,
   "scripts": {
-    "build:all": "git submodule foreach \"npm run build\"",
+    "build:all": "tsc -b tsconfig.sys.json && git submodule foreach \"npm run build\"",
     "install:all": "git submodule foreach \"npm install\""
   },
   "devDependencies": {
