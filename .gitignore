@@ -149,3 +149,4 @@ vite.config.ts.timestamp-*
 # Submodule build artifacts
 **/dist/
 node_modules/
+tsc-all.bat

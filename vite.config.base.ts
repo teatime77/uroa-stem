@@ -3,7 +3,13 @@ import { UserConfig } from 'vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
 
 export const baseConfig: UserConfig = {
-  plugins: [tsconfigPaths()],
+  plugins: [
+    // TypeScriptのpathsエイリアス (@i18nなど) をViteに教える
+    tsconfigPaths({
+      // サブプロジェクトの階層から親のtsconfig.jsonまで探しに行く設定
+      root: '../' 
+    })
+  ],
   build: {
     target: 'esnext',
     sourcemap: true,
