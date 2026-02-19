@@ -14,7 +14,6 @@
     "vite-tsconfig-paths": "^6.1.1"
   },
   "dependencies": {
-    "firebase": "^10.14.1",
-    "katex": "^0.16.28"
+    "firebase": "^10.14.1"
   }
 }

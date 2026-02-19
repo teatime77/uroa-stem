@@ -1,18 +1,18 @@
 {
   "files": [],
   "references": [
-    { "path": "./i18n.ts" },
-    { "path": "./parser.ts" },
-    { "path": "./algebra.ts" },
-    { "path": "./layout.ts" },
-    { "path": "./diagram.ts" },
-    { "path": "./media.ts" },
-    { "path": "./firebase.ts" },
-    { "path": "./lesson.ts" },
-    { "path": "./plot.ts" },
-    { "path": "./plane.ts" },
-    { "path": "./game.ts" },
-    { "path": "./movie.ts" },
-    { "path": "./webgpu.ts" }
+    { "path": "./i18n" },
+    { "path": "./parser" },
+    { "path": "./algebra" },
+    { "path": "./layout" },
+    { "path": "./diagram" },
+    { "path": "./media" },
+    { "path": "./firebase" },
+    { "path": "./lesson" },
+    { "path": "./plot" },
+    { "path": "./plane" },
+    { "path": "./game" },
+    { "path": "./movie" },
+    { "path": "./webgpu" }
   ]
 }

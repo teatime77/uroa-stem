@@ -5,9 +5,9 @@ from pathlib import Path
 import time
 
 SUB_PROJECTS = [
-    "i18n.ts", "parser.ts", "algebra.ts", "layout.ts", "plane.ts", 
-    "firebase.ts", "webgpu.ts", "lesson.ts", "media.ts", "movie.ts", 
-    "game.ts", "diagram.ts", "plot.ts"
+    "i18n", "parser", "algebra", "layout", "plane", 
+    "firebase", "webgpu", "lesson", "media", "movie", 
+    "game", "diagram", "plot"
 ]
 
 def get_latest_mtime(directory):
@@ -30,17 +30,16 @@ def run_smart_sync():
 
     for p_dir in SUB_PROJECTS:
         p_path = Path(p_dir)
-        p_name = p_dir.replace(".ts", "")
         
         ts_dir = p_path / "ts"
         local_dist = p_path / "dist"
         vite_config = p_path / "vite.config.ts"
-        target_dist = parent_dist_root / p_name
+        target_dist = parent_dist_root / p_path
         
         # 親の dist 内に index.html があるか（ビルド済みの目印）
         target_index = target_dist / "index.html"
         
-        print(f"\n[{p_name}]")
+        print(f"\n[{p_path}]")
 
         # 1. Vite ビルドの判定
         if vite_config.exists() and ts_dir.exists():
