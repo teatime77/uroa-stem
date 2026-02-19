@@ -1,39 +1,39 @@
 [submodule "plot.ts"]
-	path = plot.ts
+	path = plot
 	url = git@github.com:teatime77/plot.ts.git
 [submodule "algebra.ts"]
-	path = algebra.ts
+	path = algebra
 	url = git@github.com:teatime77/algebra.ts.git
 [submodule "diagram.ts"]
-	path = diagram.ts
+	path = diagram
 	url = git@github.com:teatime77/diagram.ts.git
 [submodule "firebase.ts"]
-	path = firebase.ts
+	path = firebase
 	url = git@github.com:teatime77/firebase.ts.git
 [submodule "game.ts"]
-	path = game.ts
+	path = game
 	url = git@github.com:teatime77/game.ts.git
 [submodule "i18n.ts"]
-	path = i18n.ts
+	path = i18n
 	url = git@github.com:teatime77/i18n.ts.git
 [submodule "layout.ts"]
-	path = layout.ts
+	path = layout
 	url = git@github.com:teatime77/layout.ts.git
 [submodule "lesson.ts"]
-	path = lesson.ts
+	path = lesson
 	url = git@github.com:teatime77/lesson.ts.git
 [submodule "media.ts"]
-	path = media.ts
+	path = media
 	url = git@github.com:teatime77/media.ts.git
 [submodule "movie.ts"]
-	path = movie.ts
+	path = movie
 	url = git@github.com:teatime77/movie.ts.git
 [submodule "parser.ts"]
-	path = parser.ts
+	path = parser
 	url = git@github.com:teatime77/parser.ts.git
 [submodule "plane.ts"]
-	path = plane.ts
+	path = plane
 	url = git@github.com:teatime77/plane.ts.git
 [submodule "webgpu.ts"]
-	path = webgpu.ts
+	path = webgpu
 	url = git@github.com:teatime77/webgpu.ts.git
