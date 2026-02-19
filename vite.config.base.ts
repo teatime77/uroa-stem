@@ -8,7 +8,9 @@ export const baseConfig: UserConfig = {
       root: '../' 
     })
   ],
+  base: './',
   build: {
+    minify: false,
     target: 'esnext',
     sourcemap: true,
     // ★ 追加：ビルドのたびに出力先を空にする
