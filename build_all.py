@@ -80,4 +80,5 @@ def run_smart_sync():
     print("\n--- All processes completed ---")
 
 if __name__ == "__main__":
+    subprocess.run(["tsc-all.bat"], shell=True)
     run_smart_sync()
